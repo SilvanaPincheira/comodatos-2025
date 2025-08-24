@@ -421,7 +421,7 @@ export default function ComodatosActivosPage() {
         rut: rec.rut,
         sn: rec.sn,
         fecha_instalacion: (rec.firstDate || today).toISOString().slice(0, 10),
-        meses_contrato: 999,
+        meses_contrato: 24,
         costo_total: undefined,
         costo_mensual: costoMensual,
         cliente: rec.cliente,
@@ -1000,3 +1000,4 @@ export default function ComodatosActivosPage() {
     </div>
   );
 }
+
